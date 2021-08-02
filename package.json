@@ -1,5 +1,5 @@
 {
-  "name": "@scaffold-eth/monorepo",
+  "name": "@fungyproof/hackfs-monorepo",
   "version": "1.0.0",
   "keywords": [
     "ethereum",
@@ -56,14 +56,7 @@
     "packages": [
       "packages/*"
     ],
-    "nohoist": [
-      "**/@graphprotocol/graph-ts",
-      "**/@graphprotocol/graph-ts/**",
-      "**/hardhat",
-      "**/hardhat/**",
-      "**/server",
-      "**/server/**"
-    ]
+    "nohoist": ["**"]
   },
   "dependencies": {}
 }
